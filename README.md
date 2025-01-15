@@ -34,6 +34,7 @@ git clone https://github.com/SubediBinod/Gemini-Chatbot.git
  private static final String API_KEY = "your-gemini-api-key"; // Paste your Gemini API Key here
 
 -Open WebConfig and update the following constraints
+```bash
 @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
@@ -42,7 +43,7 @@ git clone https://github.com/SubediBinod/Gemini-Chatbot.git
                         .allowedHeaders("*")
                         .allowCredentials(true);
             }
-
+```
 -Save the changes
 
 ### Step 4: Build and Run the Backend
@@ -54,8 +55,8 @@ git clone https://github.com/SubediBinod/Gemini-Chatbot.git
 ### Step 6: Test the Chatbot
 - Interact with the chatbot through the frontend.
 - Verify that the backend communicates with the Gemini API to generate responses.
-
-  ##Screenshot
+  
+## Screenshot
   ![chatbot](https://github.com/user-attachments/assets/e46ea3a4-73d1-498f-b549-902e84eeb5d8)
 
   ## Contribution
